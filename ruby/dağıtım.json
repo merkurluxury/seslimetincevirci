@@ -1,0 +1,87 @@
+{
+    "id": "/subscriptions/6a7f2236-8651-4c7f-8fc8-1d110f5d4afc/resourceGroups/ahmethaydarserhat/providers/Microsoft.CognitiveServices/accounts/serhathaydarahmet39",
+    "name": "serhathaydarahmet39",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "etag": "\"9a006c10-0000-0100-0000-648209320000\"",
+    "location": "eastus",
+    "sku": {
+        "name": "F0"
+    },
+    "kind": "SpeechServices",
+    "tags": {
+        "stt": ""
+    },
+    "properties": {
+        "endpoint": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+        "internalId": "f3027bb5d4cc4b168c9c14ceb22a31c0",
+        "dateCreated": "2023-06-08T17:00:34.1130095Z",
+        "callRateLimit": {
+            "rules": [
+                {
+                    "key": "speech.texttospeech",
+                    "renewalPeriod": 10,
+                    "count": 100,
+                    "matchPatterns": [
+                        {
+                            "path": "texttospeech/*",
+                            "method": "*"
+                        }
+                    ]
+                },
+                {
+                    "key": "default",
+                    "renewalPeriod": 10,
+                    "count": 100,
+                    "matchPatterns": [
+                        {
+                            "path": "*",
+                            "method": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        "isMigrated": false,
+        "networkAcls": {
+            "defaultAction": "Allow",
+            "virtualNetworkRules": [],
+            "ipRules": []
+        },
+        "privateEndpointConnections": [],
+        "publicNetworkAccess": "Enabled",
+        "capabilities": [
+            {
+                "name": "VirtualNetworks"
+            },
+            {
+                "name": "CustomerManagedKey"
+            }
+        ],
+        "endpoints": {
+            "Speech Services Speech to Text v2.0": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speech to Text v3.0": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speech to Text v3.1-preview.1": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speech to Text v3.1": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Custom Voice": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Audio Content Creation": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Unified Speech": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speaker Verification": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Speech Services Speaker Identification": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Container": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Model Distribution Service": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+            "Token API": "https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
+        },
+        "provisioningState": "Succeeded"
+    },
+    "identity": {
+        "type": "None"
+    },
+    "systemData": {
+        "createdBy": "1190505058@ogr.klu.edu.tr",
+        "createdByType": "User",
+        "createdAt": "2023-06-08T17:00:34.030298Z",
+        "lastModifiedBy": "1190505058@ogr.klu.edu.tr",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2023-06-08T17:00:34.030298Z"
+    }
+}
